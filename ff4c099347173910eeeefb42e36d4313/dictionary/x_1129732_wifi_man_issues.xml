@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="e5442d9b47573910eeeefb42e36d437a" extends="incident" label="Issues" max_length="40" name="x_1129732_wifi_man_issues" type="collection"/>
+</database>

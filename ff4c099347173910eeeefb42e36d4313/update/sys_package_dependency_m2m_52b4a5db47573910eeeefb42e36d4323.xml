@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Incident" source="com.snc.incident">04b16076d4a3211095d7c105f1bf4302</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-29 07:20:54</sys_created_on>
+        <sys_id>52b4a5db47573910eeeefb42e36d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-29 07:20:54</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

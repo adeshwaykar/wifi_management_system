@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Home - Container 3</name>
+        <order>3</order>
+        <sp_page display_value="home">2f43f9db47973910eeeefb42e36d4353</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-29 08:24:37</sys_created_on>
+        <sys_id>ef43f9db47973910eeeefb42e36d4356</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Home - Container 3</sys_name>
+        <sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope>
+        <sys_update_name>sp_container_ef43f9db47973910eeeefb42e36d4356</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-29 09:06:47</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</application>
+        <file_path/>
+        <instance_id>2d39965fdbbe370452dd2f17d49619a4</instance_id>
+        <instance_name>dev89348</instance_name>
+        <name>sp_container_ef43f9db47973910eeeefb42e36d4356</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Home - Container 3</name><order>3</order><sp_page display_value="home">2f43f9db47973910eeeefb42e36d4353</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-29 08:24:37</sys_created_on><sys_id>ef43f9db47973910eeeefb42e36d4356</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Home - Container 3</sys_name><sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package><sys_policy/><sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope><sys_update_name>sp_container_ef43f9db47973910eeeefb42e36d4356</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-29 09:06:47</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-615312835</payload_hash>
+        <record_name>Home - Container 3</record_name>
+        <reverted_from/>
+        <source>b34c099347173910eeeefb42e36d4316</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-29 09:06:47</sys_created_on>
+        <sys_id>5dfcb55747d73910eeeefb42e36d436d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cb4d37b770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-29 09:06:47</sys_updated_on>
+        <type>Container</type>
+        <update_guid>95fcb557c3d73910a3c03e403f22ad6d</update_guid>
+        <update_guid_history>95fcb557c3d73910a3c03e403f22ad6d:-615312835,56533ddba0973910c1afda4c3c0db02a:-1930625602,6f43f9db8e9739103d26f590f077dd58:1049028927</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Home - Container 3">7c660a9f47d73910eeeefb42e36d4399</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-29 09:47:59</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>0f35d2f7826e4efe936ecb28974d6ba4</sys_id>
+        <sys_metadata>ef43f9db47973910eeeefb42e36d4356</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home - Container 3</sys_name>
+        <sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope>
+        <sys_scope_delete display_value="">56ef9d8a5d834420819e3c2dfc603240</sys_scope_delete>
+        <sys_update_name>sp_container_ef43f9db47973910eeeefb42e36d4356</sys_update_name>
+        <sys_update_version display_value="sp_container_ef43f9db47973910eeeefb42e36d4356">5dfcb55747d73910eeeefb42e36d436d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-29 09:47:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

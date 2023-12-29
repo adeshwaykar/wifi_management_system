@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7353199b47173910eeeefb42e36d4301" label="WIFI Information" max_length="40" name="x_1129732_wifi_man_wifi_information" type="collection">
+        <element label="Client" max_length="32" name="client" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Free Service" max_length="40" name="free_service" type="string">
+            <choice/>
+        </element>
+        <element label="Location/Area" max_length="40" name="location_area" type="string"/>
+        <element choice="1" label="Mb Plan" max_length="40" name="mb_plan" type="choice">
+            <choice/>
+        </element>
+        <element label="Network ID" max_length="75" name="network_id" type="string"/>
+        <element label="Passphrase" max_length="100" name="passphrase" type="string"/>
+        <element label="Router Name" max_length="40" name="router_name" type="string"/>
+        <element choice="1" label="Security Protocol" max_length="40" name="security_protocol" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="client"/>
+        </index>
+    </element>
+</database>

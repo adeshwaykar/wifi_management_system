@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="8805e9db47573910eeeefb42e36d43bc" sys_domain="global" table="x_1129732_wifi_man_issues" version="3">
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1129732_wifi_man_issues</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 07:22:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8805e9db47573910eeeefb42e36d43bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1129732_wifi_man_issues</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope>
+            <sys_update_name>sys_ui_form_sections_8805e9db47573910eeeefb42e36d43bc</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 07:22:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Cxs_popup" name="cxs_popup">9769b79653a823004247ddeeff7b12fe</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</application>
+        <file_path/>
+        <instance_id>2d39965fdbbe370452dd2f17d49619a4</instance_id>
+        <instance_name>dev89348</instance_name>
+        <name>sys_ui_form_sections_8805e9db47573910eeeefb42e36d43bc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="8805e9db47573910eeeefb42e36d43bc" sys_domain="global" table="x_1129732_wifi_man_issues" version="3"><sys_ui_form action="INSERT_OR_UPDATE"><name>x_1129732_wifi_man_issues</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-29 07:22:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8805e9db47573910eeeefb42e36d43bc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1129732_wifi_man_issues</sys_name><sys_overrides/><sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package><sys_policy/><sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope><sys_update_name>sys_ui_form_sections_8805e9db47573910eeeefb42e36d43bc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-29 07:22:07</sys_updated_on><sys_user/><view display_value="Cxs_popup" name="cxs_popup">9769b79653a823004247ddeeff7b12fe</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>1961625339</payload_hash>
+        <record_name>Issues</record_name>
+        <reverted_from/>
+        <source>b34c099347173910eeeefb42e36d4316</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-29 07:22:07</sys_created_on>
+        <sys_id>4405e9db47573910eeeefb42e36d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cb473a7410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-29 07:22:07</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>8c05e9db695739100477493e1e183dbd</update_guid>
+        <update_guid_history>8c05e9db695739100477493e1e183dbd:1961625339</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-29 07:47:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>02078e188e5d45f88005216f24648701</sys_id>
+        <sys_metadata>8805e9db47573910eeeefb42e36d43bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1129732_wifi_man_issues</sys_name>
+        <sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package>
+        <sys_parent display_value="Issues">e5442d9b47573910eeeefb42e36d437a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope>
+        <sys_scope_delete display_value="">56ef9d8a5d834420819e3c2dfc603240</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_8805e9db47573910eeeefb42e36d43bc</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_8805e9db47573910eeeefb42e36d43bc">4405e9db47573910eeeefb42e36d43be</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-29 07:47:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
