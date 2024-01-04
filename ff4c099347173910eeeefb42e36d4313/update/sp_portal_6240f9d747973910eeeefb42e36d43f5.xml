@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
     <sp_portal action="INSERT_OR_UPDATE">
-        <css_variables/>
+        <css_variables>$brand-primary:#0574DE;
+$body-bg:#ece0e0;
+$state-success-text:#616638;
+$sp-homepage-bg:#fff;
+$sp-navbar-divider-color:#e7fbf2;
+$text-color:#6e8f8f;
+$sp-logo-margin-y:.5rem;
+$navbar-inverse-link-hover-color:#7a7575;
+$panel-bg:#f9f0f0;
+$brand-success:#0a5d0c;
+$navbar-inverse-bg:#0d0c0d;
+$brand-warning:#9E6817;
+$brand-danger:#B12F2C;
+$sp-tagline-color:#717171;
+$navbar-inverse-link-color:#f08c07;
+$brand-info:#0F7D8B;
+$link-color:#60605b;
+$sp-logo-margin-x:1.5rem;
+$btn-default-bg:#fff;
+$text-muted:#c8d176;
+</css_variables>
         <default>false</default>
         <enable_ais>false</enable_ais>
         <enable_favorites>false</enable_favorites>
@@ -8,7 +28,7 @@
         <homepage display_value="wi">6f660a9f47d73910eeeefb42e36d4354</homepage>
         <icon>39f0f11b47973910eeeefb42e36d433f</icon>
         <kb_knowledge_base/>
-        <kb_knowledge_page/>
+        <kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page>
         <login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page>
         <logo>ffe0f11b47973910eeeefb42e36d43ba</logo>
         <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
@@ -19,20 +39,20 @@
         <search_application/>
         <search_results_configuration/>
         <sp_chat_queue/>
-        <sp_rectangle_menu display_value="Menu for Wifi">4c2b4ad3471b3910eeeefb42e36d437a</sp_rectangle_menu>
+        <sp_rectangle_menu display_value="SP Header Menu">d150fd31cb10020000f8d856634c9ce6</sp_rectangle_menu>
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-29 08:14:31</sys_created_on>
         <sys_id>6240f9d747973910eeeefb42e36d43f5</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name>PL Wifi Provider</sys_name>
         <sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package>
         <sys_policy/>
         <sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope>
         <sys_update_name>sp_portal_6240f9d747973910eeeefb42e36d43f5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-29 10:09:17</sys_updated_on>
-        <theme/>
+        <sys_updated_on>2024-01-02 08:03:36</sys_updated_on>
+        <theme display_value="Stock - High Contrast">f84873986711320023c82e08f585ef6a</theme>
         <title>PL Wifi Provider</title>
         <ts_index_group/>
         <url_suffix>wi</url_suffix>

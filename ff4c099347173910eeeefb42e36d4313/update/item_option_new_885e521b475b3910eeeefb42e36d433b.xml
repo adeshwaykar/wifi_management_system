@@ -52,7 +52,7 @@
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table>x_1129732_wifi_man_issues</record_producer_table>
+        <record_producer_table>x_1129732_wifi_man_wifi_incident</record_producer_table>
         <reference/>
         <reference_qual/>
         <reference_qual_condition/>
@@ -73,7 +73,7 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-29 11:33:21</sys_created_on>
+        <sys_created_on>2024-01-02 06:24:05</sys_created_on>
         <sys_id>885e521b475b3910eeeefb42e36d433b</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>write your query</sys_name>
@@ -82,7 +82,7 @@
         <sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope>
         <sys_update_name>item_option_new_885e521b475b3910eeeefb42e36d433b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-29 11:33:36</sys_updated_on>
+        <sys_updated_on>2024-01-03 11:52:43</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

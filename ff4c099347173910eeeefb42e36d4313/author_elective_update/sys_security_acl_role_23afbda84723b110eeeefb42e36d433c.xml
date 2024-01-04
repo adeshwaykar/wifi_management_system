@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-02 06:31:23</sys_created_on>
+        <sys_id>23afbda84723b110eeeefb42e36d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1129732_wifi_man_issues.x_1129732_wifi_man.hardware_technician</sys_name>
+        <sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope>
+        <sys_security_acl display_value="x_1129732_wifi_man_issues">c6b4a5db47573910eeeefb42e36d4302</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_23afbda84723b110eeeefb42e36d433c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-02 06:31:23</sys_updated_on>
+        <sys_user_role display_value="x_1129732_wifi_man.hardware_technician" name="x_1129732_wifi_man.hardware_technician">c9ce091747173910eeeefb42e36d4322</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</application>
+        <file_path/>
+        <instance_id>2d39965fdbbe370452dd2f17d49619a4</instance_id>
+        <instance_name>dev89348</instance_name>
+        <name>sys_security_acl_role_23afbda84723b110eeeefb42e36d433c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-02 06:31:23</sys_created_on><sys_id>23afbda84723b110eeeefb42e36d433c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1129732_wifi_man_issues.x_1129732_wifi_man.hardware_technician</sys_name><sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package><sys_policy/><sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope><sys_security_acl display_value="x_1129732_wifi_man_issues">c6b4a5db47573910eeeefb42e36d4302</sys_security_acl><sys_update_name>sys_security_acl_role_23afbda84723b110eeeefb42e36d433c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-02 06:31:23</sys_updated_on><sys_user_role display_value="x_1129732_wifi_man.hardware_technician" name="x_1129732_wifi_man.hardware_technician">c9ce091747173910eeeefb42e36d4322</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>993104022</payload_hash>
+        <record_name>x_1129732_wifi_man_issues.x_1129732_wifi_man.hardware_technician</record_name>
+        <reverted_from/>
+        <source>48bb402347137910eeeefb42e36d43f3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-02 06:31:23</sys_created_on>
+        <sys_id>7bbfb1e84723b110eeeefb42e36d43b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cc8dea3840000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-02 06:31:23</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>b3bfb1e8ef23b1109c84a638db11beb7</update_guid>
+        <update_guid_history>b3bfb1e8ef23b1109c84a638db11beb7:993104022</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1129732_wifi_man_issues.x_1129732_wifi_man.hardware_technician">4e9c73f0472bf110eeeefb42e36d4364</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-03 10:15:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>084f5bf4a1b9414880d5409d78359e51</sys_id>
+        <sys_metadata>23afbda84723b110eeeefb42e36d433c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1129732_wifi_man_issues.x_1129732_wifi_man.hardware_technician</sys_name>
+        <sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package>
+        <sys_parent display_value="x_1129732_wifi_man_issues">c6b4a5db47573910eeeefb42e36d4302</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope>
+        <sys_scope_delete display_value="">56ef9d8a5d834420819e3c2dfc603240</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_23afbda84723b110eeeefb42e36d433c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_23afbda84723b110eeeefb42e36d433c">7bbfb1e84723b110eeeefb42e36d43b7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 10:15:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

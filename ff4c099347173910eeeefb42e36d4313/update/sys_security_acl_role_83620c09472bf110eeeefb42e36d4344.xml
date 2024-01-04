@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-03 10:41:23</sys_created_on>
+        <sys_id>83620c09472bf110eeeefb42e36d4344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1129732_wifi_man_issues.*.x_1129732_wifi_man.feild_hardware_tech</sys_name>
+        <sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope>
+        <sys_security_acl display_value="x_1129732_wifi_man_issues.*">3091c009472bf110eeeefb42e36d43e4</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_83620c09472bf110eeeefb42e36d4344</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 10:41:23</sys_updated_on>
+        <sys_user_role display_value="x_1129732_wifi_man.feild_hardware_tech" name="x_1129732_wifi_man.feild_hardware_tech">e9ce819747173910eeeefb42e36d43bb</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

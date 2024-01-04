@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>wifi management</key>
+        <language>en</language>
+        <message>Wifi Management</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-30 05:20:15</sys_created_on>
+        <sys_id>70b29e2f47d77910eeeefb42e36d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>wifi management</sys_name>
+        <sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope>
+        <sys_update_name>sys_ui_message_70b29e2f47d77910eeeefb42e36d43b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-30 05:20:15</sys_updated_on>
+    </sys_ui_message>
+</record_update>

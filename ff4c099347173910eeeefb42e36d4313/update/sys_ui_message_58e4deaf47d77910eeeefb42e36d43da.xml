@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:bb425aa347977910eeeefb42e36d439c:node:e0fb2f60e9e247578742b5bff58d645f:field:0</key>
+        <language>en</language>
+        <message>**Title: Troubleshooting Common WiFi Connectivity Issues**
+Problem: Users may encounter various connectivity issues when using WiFi networks. These issues can range from a lack of connectivity to slow speeds or intermittent disconnections.
+Solution: Here are some troubleshooting steps to resolve common WiFi connectivity problems:
+**1.**	**Check Physical Connections:**
+•	Ensure that your device is within the range of the WiFi network.
+•	Verify that the WiFi router or access point is powered on and functioning correctly. Look for indicator lights that indicate connectivity.
+**2.	Restart Your Device and Router:**
+•	Turn off your device's WiFi connection and then turn it back on.
+•	Restart your WiFi router or access point by unplugging it, waiting for 30 seconds, and then plugging it back in.
+**3.	Verify WiFi Settings:**
+•	Make sure you're connected to the correct WiFi network.
+•	Check for any changes in the WiFi password or network name (SSID) and ensure your device's settings match.
+**4.	Check Signal Strength:**
+•	Move closer to the WiFi router or access point to improve signal strength.
+•	Avoid physical obstructions or interferences such as walls, microwaves, or cordless phones that may disrupt the WiFi signal.
+**5.	Reset Network Settings:**
+•	Resetting network settings on your device can sometimes resolve connectivity issues. Go to your device's settings and find the option to reset network settings.
+**6.	Update Device Drivers or Firmware:**
+•	Ensure your device has the latest WiFi drivers or firmware updates installed. Check the manufacturer's website for updates and install them if available.
+**7.	Disable/Re-enable WiFi or Airplane Mode:**
+•	Turn off WiFi on your device and then turn it back on. Alternatively, enabling and disabling Airplane Mode can sometimes resolve connectivity issues.
+**8.	Contact IT Support or Internet Service Provider (ISP):**
+•	If the issue persists after trying the above steps, contact your organization's IT support team or your ISP for further assistance.
+Additional Tips:
+•	Ensure your device is not in power-saving mode, as this can affect WiFi performance.
+•	Check if other devices are experiencing similar connectivity issues to determine if the problem is isolated to your device or network-wide.
+By following these steps, you can troubleshoot and resolve many common WiFi connectivity issues. If you continue to experience problems, please reach out to our IT support team for further assistance.
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+This knowledge article provides step-by-step instructions for users to troubleshoot and resolve basic WiFi connectivity issues. It aims to empower users to resolve minor problems independently and directs them to seek further assistance if needed. Adjustments can be made based on specific network configurations or additional troubleshooting steps as per organizational requirements</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-30 05:29:46</sys_created_on>
+        <sys_id>58e4deaf47d77910eeeefb42e36d43da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>va:topic:bb425aa347977910eeeefb42e36d439c:node:e0fb2f60e9e247578742b5bff58d645f:field:0</sys_name>
+        <sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope>
+        <sys_update_name>sys_ui_message_58e4deaf47d77910eeeefb42e36d43da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-30 05:42:39</sys_updated_on>
+    </sys_ui_message>
+</record_update>

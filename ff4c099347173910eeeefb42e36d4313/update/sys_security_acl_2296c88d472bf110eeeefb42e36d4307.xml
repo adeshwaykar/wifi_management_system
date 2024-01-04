@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Default access control on x_1129732_wifi_man_wifi_incident</description>
+        <name>x_1129732_wifi_man_wifi_incident</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[if (gs.hasRole("x_1129732_wifi_man.hardware_technician") || gs.hasRole("x_1129732_wifi_man.feild_hardware_tech") || gs.hasRole("x_1129732_wifi_man.feild_software_tech") || gs.hasRole("x_1129732_wifi_man.software_technician") && gs.getSession().isInteractive()) {
+  answer = true;
+}
+else{
+  answer = false;
+}]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-03 10:59:04</sys_created_on>
+        <sys_id>2296c88d472bf110eeeefb42e36d4307</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1129732_wifi_man_wifi_incident</sys_name>
+        <sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope>
+        <sys_update_name>sys_security_acl_2296c88d472bf110eeeefb42e36d4307</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 11:59:05</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

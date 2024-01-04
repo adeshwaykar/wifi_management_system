@@ -11,16 +11,23 @@
         <name>Feild Hide Onload</name>
         <order/>
         <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
-	var h=g_form.getValue('state');
-	alert(h);
-	if(h!='3'){
-		g_form.setDisplay('hold_reason',false);
-	}else{
-				g_form.setDisplay('hold_reason',true);
+    //Type appropriate comment here, and begin script below
 
-	}
-   
+    if (g_form.isNewRecord()) {
+        var sections = g_form.getSections();
+
+        sections[3].style.display = 'none';
+        sections[2].style.display = 'none';
+    }
+    var h = g_form.getValue('state');
+    alert(h);
+    if (h != 3) {
+        g_form.setDisplay('on_hold_reson', false);
+    } else {
+        g_form.setDisplay('on_hold_reson', true);
+
+    }
+
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -28,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b68e699747973910eeeefb42e36d4328</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Feild Hide Onload</sys_name>
         <sys_overrides/>
         <sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package>
@@ -36,8 +43,8 @@
         <sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope>
         <sys_update_name>sys_script_client_b68e699747973910eeeefb42e36d4328</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-29 08:07:49</sys_updated_on>
-        <table>x_1129732_wifi_man_issues</table>
+        <sys_updated_on>2024-01-03 19:01:16</sys_updated_on>
+        <table>x_1129732_wifi_man_wifi_incident</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
         <view/>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="8d86488d472bf110eeeefb42e36d4387" extends="task" label="Wifi Incident" max_length="40" name="x_1129732_wifi_man_wifi_incident" type="collection">
+        <element default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="Caller" max_length="32" name="caller" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element choice="1" label="Channel" max_length="40" name="channel" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Chat" sequence="0" value="chat"/>
+                <element inactive_on_update="false" label="MAil" sequence="1" value="mail"/>
+                <element inactive_on_update="false" label="Portal" sequence="2" value="portal"/>
+                <element inactive_on_update="false" label="Vertual Agent" sequence="3" value="vertual_agent"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer  State" max_length="40" name="customer_state" type="string"/>
+        <element choice="1" label="State" max_length="40" name="incident_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Work In Progress" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="On hold" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Resolve" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Close" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Canceld" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element choice="1" label="On Hold Reson" max_length="40" name="on_hold_reson" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Assigned To Feild Team" value="assigned_to_feildteam"/>
+                <element inactive_on_update="false" label="No clearify Problem" value="no_clearify_problem"/>
+                <element inactive_on_update="false" label="Not Our team Problem" value="not_our_team_problem"/>
+                <element inactive_on_update="false" label="other issue" value="other_issue"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="phone_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Pincode" max_length="40" name="pincode" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Resolve date" max_length="40" name="resolved_at" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Resolved By" max_length="32" name="resolved_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Security Protocol" max_length="40" name="security_protocol" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer Name" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Wifi Model" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Network ID" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Area" max_length="40" name="u_string_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Purches Date" max_length="40" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Free service month" max_length="40" name="u_string_6" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:bb425aa347977910eeeefb42e36d439c:node:735ef5a67a544017a39c61f47b4e5331:field:0</key>
+        <language>en</language>
+        <message>**Title: Guide to Setting Up a WiFi Network**
+
+Overview: Setting up a WiFi network involves configuring your router or access point to establish a wireless connection for devices to access the internet. Follow these steps for a successful WiFi setup:
+**1.	Gather Equipment:**
+•	Acquire a wireless router or access point that meets your network requirements. Ensure it supports the desired WiFi standards (e.g., 802.11ac, 802.11ax).
+**2.	Placement of Router/Access Point:**
+•	Position the router or access point in a centralized location within your premises for optimal coverage. Avoid obstructions and interference sources (e.g., microwaves, thick walls).
+**3.	Connect Hardware:**
+•	Power on the router/access point and connect it to your modem using an Ethernet cable. Ensure the connections are secure.
+**4.	Access Router Settings:**
+•	Open a web browser and enter the router's default IP address (e.g., 192.168.1.1 or 192.168.0.1) in the address bar to access the router's configuration page.
+**5.	Login to Router Interface:**
+•	Log in using the default administrator credentials (usually found on the router label) and change the password to secure access to the router settings.
+**6.	Configure Network Settings:**
+•	Set the SSID (network name) and choose the appropriate security protocol (WPA3/WPA2) and encryption method (AES) for your WiFi network.
+**7.	Set a Strong Password:**
+•	Create a strong WiFi password/passphrase that combines upper and lower-case letters, numbers, and symbols. This secures your network from unauthorized access.
+**8.	Enable DHCP (Dynamic Host Configuration Protocol):**
+•	Enable DHCP to allow the router to assign IP addresses automatically to devices connected to the network. This simplifies device setup.
+**9.	Customize Advanced Settings:**
+•	Adjust advanced settings as needed, including port forwarding, parental controls, Quality of Service (QoS), and guest network setup.
+**10.	Firmware Update:**
+•	Check for firmware updates for your router/access point and install the latest version to ensure security patches and improved performance.
+**11.	Connect Devices:**
+•	On your devices (laptops, smartphones, tablets), search for available WiFi networks, select your SSID, and enter the WiFi password to connect.
+**12.	Test Connectivity:**
+•	Verify that connected devices can access the internet and check the WiFi signal strength in various areas to ensure adequate coverage.
+Additional Tips:
+•	Rename your network SSID to something unique to easily identify it among neighboring networks.
+•	Regularly monitor and manage your WiFi network settings for optimal performance and security.
+By following these steps, you can successfully set up a WiFi network, providing wireless connectivity to devices within your home or office environment.
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+This knowledge article aims to guide users through the process of setting up a WiFi network, covering essential steps from initial hardware connections to securing the network and connecting devices. Adjustments may be needed based on specific router models or network configurations.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-30 05:42:40</sys_created_on>
+        <sys_id>81d7d223471b7910eeeefb42e36d43e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>va:topic:bb425aa347977910eeeefb42e36d439c:node:735ef5a67a544017a39c61f47b4e5331:field:0</sys_name>
+        <sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope>
+        <sys_update_name>sys_ui_message_81d7d223471b7910eeeefb42e36d43e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-30 05:42:40</sys_updated_on>
+    </sys_ui_message>
+</record_update>

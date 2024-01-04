@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Wifi Management">84eb4ee44763b110eeeefb42e36d43a3</compiled_topic>
+        <design_definition>{"type":"FlowTopic","type":"FlowTopic","triggers":[{"type":"Trigger","name":"09487fbbbef741f6bec7678ce31588b4","triggerType":"request","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"id":"09487fbbbef741f6bec7678ce31588b4"}],"goals":[{"name":"primary","trigger_id":"09487fbbbef741f6bec7678ce31588b4","nodes":[{"type":"StartGoal","type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"2083350318124725a43471e77b9b7786","name":"Start"},{"type":"TerminateGoal","type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"afaa4e905a1f4f3a91451c44a9a57908","name":"End"},{"type":"TextOutputPrompt","type":"TextOutputPrompt","value":[{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"**If you any query regarding wifi plase type here**\", vaContext.getRequesterLang())"}],"id":"87248680ca6f43bd99063c7c25706465","name":"Wifi Information","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"secure":false},{"type":"ChoiceInputPrompt","type":"ChoiceInputPrompt","expression_mode":"simple","metadataScript":"","cardName":"","cardFields":[],"id":"0aecfe00e9aa4f34a2f60c1b90b1351d","name":"Select","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"variable_id":"6f0efbf4d4564eb5a9369c35ad943cfc","message":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"Choice your problem\", vaContext.getRequesterLang())"},"skippable":{"type":"Applicability","type":"Applicability","mode":"script","value":"false"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true}},{"type":"Decision","type":"Decision","name":"select option","branches":[{"type":"Branch","type":"Branch","label":"Network issue","expression":{"type":"Applicability","type":"Applicability","mode":"query","value":"select=2"},"id":"45ff937e791c45db8e3a6a29dd0bcb88","name":"Network issue"},{"type":"Branch","type":"Branch","label":"Wifi setup","expression":{"type":"Applicability","type":"Applicability","mode":"query","value":"select=1"},"id":"5e24a833540743e6af7539c410a93960","name":"Wifi setup"}],"id":"22ccab7aa28c4800ac7c9c4eaa1e2b4c","goal_id":"primary"},{"type":"TextOutputPrompt","type":"TextOutputPrompt","value":[{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"va:topic:bb425aa347977910eeeefb42e36d439c:node:e0fb2f60e9e247578742b5bff58d645f:field:0\", vaContext.getRequesterLang())"}],"id":"e0fb2f60e9e247578742b5bff58d645f","name":"Network issue","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"secure":false},{"type":"TextOutputPrompt","type":"TextOutputPrompt","value":[{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"va:topic:bb425aa347977910eeeefb42e36d439c:node:735ef5a67a544017a39c61f47b4e5331:field:0\", vaContext.getRequesterLang())"}],"id":"735ef5a67a544017a39c61f47b4e5331","name":"Wifi Setup","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"secure":false},{"type":"ChoiceInputPrompt","type":"ChoiceInputPrompt","expression_mode":"simple","metadataScript":"","cardName":"","cardFields":[],"id":"e3b42541f8d344f4b8bc2e0a362d69ba","name":"get choice issue solve or not","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"variable_id":"821c293e7bf14581a7fcfa3abd924b98","message":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"is your Issue is solve?\", vaContext.getRequesterLang())"},"skippable":{"type":"Applicability","type":"Applicability","mode":"script","value":"false"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true}},{"type":"Decision","type":"Decision","name":"Decision","branches":[{"type":"Branch","type":"Branch","label":"no","expression":{"type":"Applicability","type":"Applicability","mode":"query","value":"get_choice_issue_solve_or_not=no"},"id":"6a940f68bb0b489f8316861c466d37ce","name":"no"},{"type":"Branch","type":"Branch","label":"yes","expression":{"type":"Applicability","type":"Applicability","mode":"query","value":"get_choice_issue_solve_or_not=yes"},"id":"c677c8c3c5624f88a07c6087141f5d94","name":"yes"}],"id":"ba0c30578c7449cba7202588c79de50f","goal_id":"primary"},{"type":"InputPrompt","type":"InputPrompt","variable_id":"0e8895f1aec84076aa2845bf336f1031","message":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"write your issue\", vaContext.getRequesterLang())"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"skippable":{"type":"Applicability","type":"Applicability","mode":"script","value":"false"},"id":"45dda8cf79ab4b219aefcbd0c8019a7c","name":"short description","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"formatType":"Text","validationScript":""},{"type":"InputPrompt","type":"InputPrompt","variable_id":"0e1f823a7fec4199b7343d068ac025f7","message":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"Give brief Idea about you actual issue\", vaContext.getRequesterLang())"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"skippable":{"type":"Applicability","type":"Applicability","mode":"script","value":"false"},"id":"8e77ca97520440d3950c6119c3b00e2b","name":"description","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"formatType":"Text","validationScript":""},{"type":"CRUDAction","type":"CRUDAction","mode":"create","query":"short_description={{vaInputs.short_description}}^description={{vaInputs.description}}","variable_id":"156d300e5a07462189f6392adbe49215","id":"3b6e0f5db1964984b92a0438e185b07d","name":"Create an incident","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"}},{"type":"TextOutputPrompt","type":"TextOutputPrompt","value":[{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"va:topic:bb425aa347977910eeeefb42e36d439c:node:a94daa94be204842b39d4e687ae99dd0:field:0 {0} {1} {2}\", vaContext.getRequesterLang(), [vaInputs.create_an_incident.number,vaInputs.short_description,vaInputs.description])"}],"id":"a94daa94be204842b39d4e687ae99dd0","name":"incidedent created","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"secure":false},{"type":"TextOutputPrompt","type":"TextOutputPrompt","value":[{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"**Thanks to interacted with me**😍\", vaContext.getRequesterLang())"}],"id":"05fdce1eb77f4a50af0b82565acffcb9","name":"Thanks to interacted with me","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"secure":false},{"type":"TextOutputPrompt","type":"TextOutputPrompt","value":[{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"***Thanks to  interact with me***\", vaContext.getRequesterLang())"}],"id":"0205a01cb1944631b8c52fe4cc6b1dd8","name":"bye msg","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"secure":false}],"edges":[{"type":"Edge","source_node_id":"2083350318124725a43471e77b9b7786","target_node_id":"87248680ca6f43bd99063c7c25706465","id":"bf063123943b4d2abeec846a28fb45c5"},{"type":"Edge","source_node_id":"87248680ca6f43bd99063c7c25706465","target_node_id":"0aecfe00e9aa4f34a2f60c1b90b1351d","id":"e4c3d5c868c94330969e73c5c3340732"},{"type":"Edge","source_node_id":"0aecfe00e9aa4f34a2f60c1b90b1351d","target_node_id":"22ccab7aa28c4800ac7c9c4eaa1e2b4c","id":"d11667857f6c4797a43eb7c01dfee2cf"},{"type":"Edge","source_node_id":"22ccab7aa28c4800ac7c9c4eaa1e2b4c","target_node_id":"e0fb2f60e9e247578742b5bff58d645f","branch_id":"45ff937e791c45db8e3a6a29dd0bcb88","id":"f12b16f8fc9c4b67b2c7172c7feb6e41","name":"45ff937e791c45db8e3a6a29dd0bcb88"},{"type":"Edge","source_node_id":"22ccab7aa28c4800ac7c9c4eaa1e2b4c","target_node_id":"735ef5a67a544017a39c61f47b4e5331","branch_id":"5e24a833540743e6af7539c410a93960","id":"7fb1618ecfaf4d0e81f9bc4bb85bc29b","name":"5e24a833540743e6af7539c410a93960"},{"type":"Edge","source_node_id":"735ef5a67a544017a39c61f47b4e5331","target_node_id":"e3b42541f8d344f4b8bc2e0a362d69ba","id":"91c12478fcbd4e9baa139fd5d8d4c311"},{"type":"Edge","source_node_id":"e0fb2f60e9e247578742b5bff58d645f","target_node_id":"e3b42541f8d344f4b8bc2e0a362d69ba","id":"82c137471f11450d80c9c7a360d324e8"},{"type":"Edge","source_node_id":"e3b42541f8d344f4b8bc2e0a362d69ba","target_node_id":"ba0c30578c7449cba7202588c79de50f","id":"dd1a89c118804d6dac41c2d4f73cdfdd"},{"type":"Edge","source_node_id":"ba0c30578c7449cba7202588c79de50f","target_node_id":"45dda8cf79ab4b219aefcbd0c8019a7c","branch_id":"6a940f68bb0b489f8316861c466d37ce","id":"39d6ec1d760848f09d03629cc36f6d7b","name":"6a940f68bb0b489f8316861c466d37ce"},{"type":"Edge","source_node_id":"45dda8cf79ab4b219aefcbd0c8019a7c","target_node_id":"8e77ca97520440d3950c6119c3b00e2b","id":"fe76b2891b904b118d336d368a5cd1d6"},{"type":"Edge","source_node_id":"8e77ca97520440d3950c6119c3b00e2b","target_node_id":"3b6e0f5db1964984b92a0438e185b07d","id":"8c672cafdfd746b0b4bb16f5c795b6d3"},{"type":"Edge","source_node_id":"3b6e0f5db1964984b92a0438e185b07d","target_node_id":"a94daa94be204842b39d4e687ae99dd0","id":"72399aa5b12f4517a4f013aa561f86cd"},{"type":"Edge","source_node_id":"ba0c30578c7449cba7202588c79de50f","target_node_id":"05fdce1eb77f4a50af0b82565acffcb9","branch_id":"c677c8c3c5624f88a07c6087141f5d94","id":"716383ffebcd437dab114518f2e797a8","name":"c677c8c3c5624f88a07c6087141f5d94"},{"type":"Edge","source_node_id":"05fdce1eb77f4a50af0b82565acffcb9","target_node_id":"afaa4e905a1f4f3a91451c44a9a57908","id":"81b4a35f697843a3ad03a50bd9a9f7f4"},{"type":"Edge","source_node_id":"a94daa94be204842b39d4e687ae99dd0","target_node_id":"0205a01cb1944631b8c52fe4cc6b1dd8","id":"43d0f52638d842d4a0fbcd8dfb61caa1"},{"type":"Edge","source_node_id":"0205a01cb1944631b8c52fe4cc6b1dd8","target_node_id":"afaa4e905a1f4f3a91451c44a9a57908","id":"d239962c2865438fbff3e8c010bd9ec2"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false},{"type":"Choice","type":"Choice","choices":[{"name":"Wifi setup","element":"1"},{"name":"Network Issue","element":"2"}],"id":"6f0efbf4d4564eb5a9369c35ad943cfc","name":"select","formatType":"text","secure":false,"sensitive":false,"list":false},{"type":"Choice","type":"Choice","choices":[{"name":"yes","element":"yes"},{"name":"no","element":"no"}],"id":"821c293e7bf14581a7fcfa3abd924b98","name":"get_choice_issue_solve_or_not","formatType":"text","secure":false,"sensitive":false,"list":false},{"type":"VariableDto","type":"String","name":"short_description","list":false,"id":"0e8895f1aec84076aa2845bf336f1031","formatType":"Text","validationScript":"","secure":false,"sensitive":false},{"type":"VariableDto","type":"String","name":"description","list":false,"id":"0e1f823a7fec4199b7343d068ac025f7","formatType":"Text","validationScript":"","secure":false,"sensitive":false},{"type":"Reference","type":"Reference","table":"x_1129732_wifi_man_wifi_incident","id":"156d300e5a07462189f6392adbe49215","name":"create_an_incident","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"ff4c099347173910eeeefb42e36d4313","domain":"global","topic_type":"STANDARD","channels":[],"id":"bb425aa347977910eeeefb42e36d439c","name":"Wifi Management","key_phrases":["Wifi Management","wi","wifi","ma"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":true,"design_categories":[],"triggerable_by_notification":false,"library":false,"readOnly":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>bb425aa347977910eeeefb42e36d439c</design_topic_id>
+        <graph>{
+  "graph_api_version": "1.0.41",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "2083350318124725a43471e77b9b7786": {
+          "id": "2083350318124725a43471e77b9b7786",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "afaa4e905a1f4f3a91451c44a9a57908": {
+          "id": "afaa4e905a1f4f3a91451c44a9a57908",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "87248680ca6f43bd99063c7c25706465": {
+          "id": "87248680ca6f43bd99063c7c25706465",
+          "stepType": "TextOutput",
+          "name": "Wifi Information",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "If you any query regarding wifi plase type here",
+                      "bold": true
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "55871fff8cf4434889d4c542f1b9f5ea"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "0aecfe00e9aa4f34a2f60c1b90b1351d": {
+          "stepType": "ChoicePrompt",
+          "name": "Select",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Choice your problem"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "6f0efbf4d4564eb5a9369c35ad943cfc",
+          "id": "0aecfe00e9aa4f34a2f60c1b90b1351d",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "22ccab7aa28c4800ac7c9c4eaa1e2b4c": {
+          "id": "22ccab7aa28c4800ac7c9c4eaa1e2b4c",
+          "stepType": "Decision",
+          "name": "select option"
+        },
+        "e0fb2f60e9e247578742b5bff58d645f": {
+          "id": "e0fb2f60e9e247578742b5bff58d645f",
+          "stepType": "TextOutput",
+          "name": "Network issue",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Title: Troubleshooting Common WiFi Connectivity Issues",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Problem: Users may encounter various connectivity issues when using WiFi networks. These issues can range from a lack of connectivity to slow speeds or intermittent disconnections."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Solution: Here are some troubleshooting steps to resolve common WiFi connectivity problems:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "1.",
+                      "bold": true
+                    },
+                    {
+                      "text": "\t"
+                    },
+                    {
+                      "text": "Check Physical Connections:",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tEnsure that your device is within the range of the WiFi network."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tVerify that the WiFi router or access point is powered on and functioning correctly. Look for indicator lights that indicate connectivity."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "2.\tRestart Your Device and Router:",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tTurn off your device's WiFi connection and then turn it back on."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tRestart your WiFi router or access point by unplugging it, waiting for 30 seconds, and then plugging it back in."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "3.\tVerify WiFi Settings:",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tMake sure you're connected to the correct WiFi network."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tCheck for any changes in the WiFi password or network name (SSID) and ensure your device's settings match."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "4.\tCheck Signal Strength:",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tMove closer to the WiFi router or access point to improve signal strength."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tAvoid physical obstructions or interferences such as walls, microwaves, or cordless phones that may disrupt the WiFi signal."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "5.\tReset Network Settings:",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tResetting network settings on your device can sometimes resolve connectivity issues. Go to your device's settings and find the option to reset network settings."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "6.\tUpdate Device Drivers or Firmware:",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tEnsure your device has the latest WiFi drivers or firmware updates installed. Check the manufacturer's website for updates and install them if available."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "7.\tDisable/Re-enable WiFi or Airplane Mode:",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tTurn off WiFi on your device and then turn it back on. Alternatively, enabling and disabling Airplane Mode can sometimes resolve connectivity issues."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "8.\tContact IT Support or Internet Service Provider (ISP):",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tIf the issue persists after trying the above steps, contact your organization's IT support team or your ISP for further assistance."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Additional Tips:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tEnsure your device is not in power-saving mode, as this can affect WiFi performance."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tCheck if other devices are experiencing similar connectivity issues to determine if the problem is isolated to your device or network-wide."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "By following these steps, you can troubleshoot and resolve many common WiFi connectivity issues. If you continue to experience problems, please reach out to our IT support team for further assistance."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "________________________________________"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "This knowledge article provides step-by-step instructions for users to troubleshoot and resolve basic WiFi connectivity issues. It aims to empower users to resolve minor problems independently and directs them to seek further assistance if needed. Adjustments can be made based on specific network configurations or additional troubleshooting steps as per organizational requirements"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "0307d037699240cd9192a4404806a6b5"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "735ef5a67a544017a39c61f47b4e5331": {
+          "id": "735ef5a67a544017a39c61f47b4e5331",
+          "stepType": "TextOutput",
+          "name": "Wifi Setup",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Title: Guide to Setting Up a WiFi Network",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Overview: Setting up a WiFi network involves configuring your router or access point to establish a wireless connection for devices to access the internet. Follow these steps for a successful WiFi setup:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "1.\tGather Equipment:",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tAcquire a wireless router or access point that meets your network requirements. Ensure it supports the desired WiFi standards (e.g., 802.11ac, 802.11ax)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "2.\tPlacement of Router/Access Point:",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tPosition the router or access point in a centralized location within your premises for optimal coverage. Avoid obstructions and interference sources (e.g., microwaves, thick walls)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "3.\tConnect Hardware:",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tPower on the router/access point and connect it to your modem using an Ethernet cable. Ensure the connections are secure."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "4.\tAccess Router Settings:",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tOpen a web browser and enter the router's default IP address (e.g., 192.168.1.1 or 192.168.0.1) in the address bar to access the router's configuration page."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "5.\tLogin to Router Interface:",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tLog in using the default administrator credentials (usually found on the router label) and change the password to secure access to the router settings."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "6.\tConfigure Network Settings:",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tSet the SSID (network name) and choose the appropriate security protocol (WPA3/WPA2) and encryption method (AES) for your WiFi network."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "7.\tSet a Strong Password:",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tCreate a strong WiFi password/passphrase that combines upper and lower-case letters, numbers, and symbols. This secures your network from unauthorized access."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "8.\tEnable DHCP (Dynamic Host Configuration Protocol):",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tEnable DHCP to allow the router to assign IP addresses automatically to devices connected to the network. This simplifies device setup."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "9.\tCustomize Advanced Settings:",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tAdjust advanced settings as needed, including port forwarding, parental controls, Quality of Service (QoS), and guest network setup."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "10.\tFirmware Update:",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tCheck for firmware updates for your router/access point and install the latest version to ensure security patches and improved performance."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "11.\tConnect Devices:",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tOn your devices (laptops, smartphones, tablets), search for available WiFi networks, select your SSID, and enter the WiFi password to connect."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "12.\tTest Connectivity:",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tVerify that connected devices can access the internet and check the WiFi signal strength in various areas to ensure adequate coverage."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Additional Tips:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tRename your network SSID to something unique to easily identify it among neighboring networks."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "•\tRegularly monitor and manage your WiFi network settings for optimal performance and security."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "By following these steps, you can successfully set up a WiFi network, providing wireless connectivity to devices within your home or office environment."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "________________________________________"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "This knowledge article aims to guide users through the process of setting up a WiFi network, covering essential steps from initial hardware connections to securing the network and connecting devices. Adjustments may be needed based on specific router models or network configurations."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "082becd652bc4c3ca056d3e619414293"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "e3b42541f8d344f4b8bc2e0a362d69ba": {
+          "stepType": "ChoicePrompt",
+          "name": "get choice issue solve or not",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "is your Issue is solve?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "821c293e7bf14581a7fcfa3abd924b98",
+          "id": "e3b42541f8d344f4b8bc2e0a362d69ba",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "ba0c30578c7449cba7202588c79de50f": {
+          "id": "ba0c30578c7449cba7202588c79de50f",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "45dda8cf79ab4b219aefcbd0c8019a7c": {
+          "id": "45dda8cf79ab4b219aefcbd0c8019a7c",
+          "stepType": "Prompt",
+          "name": "short description",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "write your issue"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "0e8895f1aec84076aa2845bf336f1031",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          }
+        },
+        "8e77ca97520440d3950c6119c3b00e2b": {
+          "id": "8e77ca97520440d3950c6119c3b00e2b",
+          "stepType": "Prompt",
+          "name": "description",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Give brief Idea about you actual issue"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "0e1f823a7fec4199b7343d068ac025f7",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          }
+        },
+        "3b6e0f5db1964984b92a0438e185b07d": {
+          "id": "3b6e0f5db1964984b92a0438e185b07d",
+          "stepType": "CrudAction",
+          "name": "Create an incident",
+          "template": "short_description={{vaInputs.short_description}}^description={{vaInputs.description}}",
+          "mode": "create",
+          "record": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "156d300e5a07462189f6392adbe49215"
+        },
+        "a94daa94be204842b39d4e687ae99dd0": {
+          "id": "a94daa94be204842b39d4e687ae99dd0",
+          "stepType": "TextOutput",
+          "name": "incidedent created",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "your incident successfully created",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "",
+                      "bold": true
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.create_an_incident.number}}",
+                        "displayValue": "Input Variables➛Create An Incident➛Number"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.short_description}}",
+                        "displayValue": "Input Variables➛Short Description"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": "  "
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": " "
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.description}}",
+                        "displayValue": "Input Variables➛Description"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Your issue  is assiged to  our profession team.they will solve your issue or contact you for further action",
+                      "italic": true
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "18b5cde33ebb4b76b627f6e5ad250a6d"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "05fdce1eb77f4a50af0b82565acffcb9": {
+          "id": "05fdce1eb77f4a50af0b82565acffcb9",
+          "stepType": "TextOutput",
+          "name": "Thanks to interacted with me",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Thanks to interacted with me",
+                      "bold": true
+                    },
+                    {
+                      "type": "emoji",
+                      "emoji": {
+                        "id": "heart_eyes",
+                        "name": "Smiling Face with Heart-Shaped Eyes",
+                        "short_names": [
+                          "heart_eyes"
+                        ],
+                        "colons": ":heart_eyes:",
+                        "emoticons": [],
+                        "unified": "1f60d",
+                        "skin": null,
+                        "native": "😍"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "c34638f26f3d47868f694c79fd47c4d8"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "0205a01cb1944631b8c52fe4cc6b1dd8": {
+          "id": "0205a01cb1944631b8c52fe4cc6b1dd8",
+          "stepType": "TextOutput",
+          "name": "bye msg",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Thanks to  interact with me",
+                      "bold": true,
+                      "italic": true
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "1523ae25e2dc4ab9b32b861fa5b27478"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "bf063123943b4d2abeec846a28fb45c5",
+          "edgeType": "Edge",
+          "source": "2083350318124725a43471e77b9b7786",
+          "target": "87248680ca6f43bd99063c7c25706465",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "e4c3d5c868c94330969e73c5c3340732",
+          "edgeType": "Edge",
+          "source": "87248680ca6f43bd99063c7c25706465",
+          "target": "0aecfe00e9aa4f34a2f60c1b90b1351d",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d11667857f6c4797a43eb7c01dfee2cf",
+          "edgeType": "Edge",
+          "source": "0aecfe00e9aa4f34a2f60c1b90b1351d",
+          "target": "22ccab7aa28c4800ac7c9c4eaa1e2b4c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f12b16f8fc9c4b67b2c7172c7feb6e41",
+          "edgeType": "Branch",
+          "source": "22ccab7aa28c4800ac7c9c4eaa1e2b4c",
+          "target": "e0fb2f60e9e247578742b5bff58d645f",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.select=2",
+            "mode": "query"
+          },
+          "label": "Network issue"
+        },
+        {
+          "id": "7fb1618ecfaf4d0e81f9bc4bb85bc29b",
+          "edgeType": "Branch",
+          "source": "22ccab7aa28c4800ac7c9c4eaa1e2b4c",
+          "target": "735ef5a67a544017a39c61f47b4e5331",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.select=1",
+            "mode": "query"
+          },
+          "label": "Wifi setup"
+        },
+        {
+          "id": "91c12478fcbd4e9baa139fd5d8d4c311",
+          "edgeType": "Edge",
+          "source": "735ef5a67a544017a39c61f47b4e5331",
+          "target": "e3b42541f8d344f4b8bc2e0a362d69ba",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "82c137471f11450d80c9c7a360d324e8",
+          "edgeType": "Edge",
+          "source": "e0fb2f60e9e247578742b5bff58d645f",
+          "target": "e3b42541f8d344f4b8bc2e0a362d69ba",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "dd1a89c118804d6dac41c2d4f73cdfdd",
+          "edgeType": "Edge",
+          "source": "e3b42541f8d344f4b8bc2e0a362d69ba",
+          "target": "ba0c30578c7449cba7202588c79de50f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "39d6ec1d760848f09d03629cc36f6d7b",
+          "edgeType": "Branch",
+          "source": "ba0c30578c7449cba7202588c79de50f",
+          "target": "45dda8cf79ab4b219aefcbd0c8019a7c",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.get_choice_issue_solve_or_not=no",
+            "mode": "query"
+          },
+          "label": "no"
+        },
+        {
+          "id": "fe76b2891b904b118d336d368a5cd1d6",
+          "edgeType": "Edge",
+          "source": "45dda8cf79ab4b219aefcbd0c8019a7c",
+          "target": "8e77ca97520440d3950c6119c3b00e2b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "8c672cafdfd746b0b4bb16f5c795b6d3",
+          "edgeType": "Edge",
+          "source": "8e77ca97520440d3950c6119c3b00e2b",
+          "target": "3b6e0f5db1964984b92a0438e185b07d",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "72399aa5b12f4517a4f013aa561f86cd",
+          "edgeType": "Edge",
+          "source": "3b6e0f5db1964984b92a0438e185b07d",
+          "target": "a94daa94be204842b39d4e687ae99dd0",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "716383ffebcd437dab114518f2e797a8",
+          "edgeType": "Branch",
+          "source": "ba0c30578c7449cba7202588c79de50f",
+          "target": "05fdce1eb77f4a50af0b82565acffcb9",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.get_choice_issue_solve_or_not=yes",
+            "mode": "query"
+          },
+          "label": "yes"
+        },
+        {
+          "id": "81b4a35f697843a3ad03a50bd9a9f7f4",
+          "edgeType": "Edge",
+          "source": "05fdce1eb77f4a50af0b82565acffcb9",
+          "target": "afaa4e905a1f4f3a91451c44a9a57908",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "43d0f52638d842d4a0fbcd8dfb61caa1",
+          "edgeType": "Edge",
+          "source": "a94daa94be204842b39d4e687ae99dd0",
+          "target": "0205a01cb1944631b8c52fe4cc6b1dd8",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d239962c2865438fbff3e8c010bd9ec2",
+          "edgeType": "Edge",
+          "source": "0205a01cb1944631b8c52fe4cc6b1dd8",
+          "target": "afaa4e905a1f4f3a91451c44a9a57908",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "6f0efbf4d4564eb5a9369c35ad943cfc": {
+      "id": "6f0efbf4d4564eb5a9369c35ad943cfc",
+      "name": "select",
+      "label": "Select",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Wifi setup",
+          "value": "1"
+        },
+        {
+          "label": "Network Issue",
+          "value": "2"
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "821c293e7bf14581a7fcfa3abd924b98": {
+      "id": "821c293e7bf14581a7fcfa3abd924b98",
+      "name": "get_choice_issue_solve_or_not",
+      "label": "Get Choice Issue Solve Or Not",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "yes",
+          "value": "yes"
+        },
+        {
+          "label": "no",
+          "value": "no"
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "0e8895f1aec84076aa2845bf336f1031": {
+      "id": "0e8895f1aec84076aa2845bf336f1031",
+      "name": "short_description",
+      "label": "Short Description",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTcwNDE3ODg0Nzk4MyBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      }
+    },
+    "0e1f823a7fec4199b7343d068ac025f7": {
+      "id": "0e1f823a7fec4199b7343d068ac025f7",
+      "name": "description",
+      "label": "Description",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTcwNDE3ODk1MTgxMiBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      }
+    },
+    "156d300e5a07462189f6392adbe49215": {
+      "id": "156d300e5a07462189f6392adbe49215",
+      "name": "create_an_incident",
+      "label": "Create An Incident",
+      "varType": "reference",
+      "table": "x_1129732_wifi_man_wifi_incident",
+      "inactive": false,
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <name>Wifi Management</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-02 07:24:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4ceb4ee44763b110eeeefb42e36d43a7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope>
+        <sys_update_name>sys_cb_design_topic_4ceb4ee44763b110eeeefb42e36d43a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 11:56:32</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

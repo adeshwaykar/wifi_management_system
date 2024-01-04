@@ -1,3 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" db_object_id="e5442d9b47573910eeeefb42e36d437a" extends="incident" label="Issues" max_length="40" name="x_1129732_wifi_man_issues" type="collection"/>
+    <element audit="true" db_object_id="e5442d9b47573910eeeefb42e36d437a" extends="incident" label="Issues" max_length="40" name="x_1129732_wifi_man_issues" type="collection">
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Customer State" max_length="40" name="customer_state" type="string"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="longint"/>
+        <element label="Pincode" max_length="40" name="pincode" type="string"/>
+        <element label="Security  Protocol" max_length="40" name="security_protocol" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer Name" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Wifi Modal" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Network id" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location/Area" max_length="40" name="u_string_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Purches Date" max_length="40" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Free serving month" max_length="40" name="u_string_6" type="string"/>
+    </element>
 </database>

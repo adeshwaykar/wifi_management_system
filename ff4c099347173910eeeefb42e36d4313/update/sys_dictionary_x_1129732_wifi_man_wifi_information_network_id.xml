@@ -58,12 +58,12 @@
         <sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope>
         <sys_update_name>sys_dictionary_x_1129732_wifi_man_wifi_information_network_id</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-29 06:10:35</sys_updated_on>
+        <sys_updated_on>2023-12-29 20:03:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
-        <unique>false</unique>
+        <unique>true</unique>
         <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
+        <use_dynamic_default>true</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
         <virtual_type>script</virtual_type>

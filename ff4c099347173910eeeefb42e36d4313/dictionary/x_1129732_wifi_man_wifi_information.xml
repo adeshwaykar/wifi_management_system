@@ -1,21 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="7353199b47173910eeeefb42e36d4301" label="WIFI Information" max_length="40" name="x_1129732_wifi_man_wifi_information" type="collection">
+        <element label="City" max_length="40" name="city" type="string"/>
         <element label="Client" max_length="32" name="client" reference="sys_user" type="reference"/>
+        <element label="country" max_length="40" name="country" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Free Service" max_length="40" name="free_service" type="string">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="1 yr" value="3"/>
+                <element inactive_on_update="false" label="3 months" value="1"/>
+                <element inactive_on_update="false" label="6 months" value="2"/>
+            </choice>
         </element>
-        <element label="Location/Area" max_length="40" name="location_area" type="string"/>
-        <element choice="1" label="Mb Plan" max_length="40" name="mb_plan" type="choice">
-            <choice/>
+        <element label="Location/Area" max_length="100" name="location_area" type="string_full_utf8"/>
+        <element choice="1" label="Mb Plan " max_length="40" name="mb_plan" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="100MBPS" value="3"/>
+                <element inactive_on_update="false" label="200MBPS" value="4"/>
+                <element inactive_on_update="false" label="40 MBPS" value="1"/>
+                <element inactive_on_update="false" label="80 MBPS" value="2"/>
+            </choice>
         </element>
-        <element label="Network ID" max_length="75" name="network_id" type="string"/>
-        <element label="Passphrase" max_length="100" name="passphrase" type="string"/>
+        <element label="Network ID" max_length="75" name="network_id" type="string" unique="true" use_dynamic_default="true"/>
+        <element label="phone no" max_length="40" name="phone_no" type="longint"/>
+        <element label="Pincode" max_length="40" name="pincode" type="integer"/>
+        <element label="Purches date" max_length="40" name="purches_date" type="glide_date_time"/>
         <element label="Router Name" max_length="40" name="router_name" type="string"/>
         <element choice="1" label="Security Protocol" max_length="40" name="security_protocol" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="WEP" value="1"/>
+                <element inactive_on_update="false" label="WPA" value="2"/>
+                <element inactive_on_update="false" label="WPA2" value="3"/>
+                <element inactive_on_update="false" label="WPA3" value="4"/>
+            </choice>
         </element>
+        <element label="state" max_length="40" name="state" type="string"/>
         <index name="index">
             <element name="client"/>
+        </index>
+        <index name="index2" unique="true">
+            <element name="network_id"/>
         </index>
     </element>
 </database>

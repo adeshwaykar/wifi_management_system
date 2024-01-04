@@ -7,7 +7,7 @@
         <billable>false</billable>
         <can_cancel>false</can_cancel>
         <category/>
-        <checked_out>true</checked_out>
+        <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
@@ -87,15 +87,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-29 11:31:55</sys_created_on>
         <sys_id>788d52d7475b3910eeeefb42e36d4356</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>wifi isssue</sys_name>
         <sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package>
         <sys_policy/>
         <sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope>
         <sys_update_name>sc_cat_item_producer_788d52d7475b3910eeeefb42e36d4356</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-29 11:43:28</sys_updated_on>
-        <table_name>x_1129732_wifi_man_issues</table_name>
+        <sys_updated_on>2024-01-03 11:52:43</sys_updated_on>
+        <table_name>x_1129732_wifi_man_wifi_incident</table_name>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>

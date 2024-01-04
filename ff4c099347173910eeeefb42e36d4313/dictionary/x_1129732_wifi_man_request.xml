@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4caaa62847e3b110eeeefb42e36d4389" label="Request " max_length="40" name="x_1129732_wifi_man_request" type="collection">
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element label="Requested for" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element choice="1" label="Request type" max_length="40" name="request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Chnage Mb plan" value="2"/>
+                <element inactive_on_update="false" label="New Router" value="1"/>
+            </choice>
+        </element>
+        <element label="Short Description" max_length="40" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="2"/>
+                <element inactive_on_update="false" label="Rejected" value="3"/>
+                <element inactive_on_update="false" label="waiting for approval" value="1"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="requested_for"/>
+        </index>
+    </element>
+</database>

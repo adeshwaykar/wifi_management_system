@@ -1,186 +1,298 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="6f99951347573910eeeefb42e36d43d1" sys_domain="global" table="x_1129732_wifi_man_wifi_information" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>network_id</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-12-29 06:32:23</sys_created_on>
-            <sys_id>6399951347573910eeeefb42e36d43d5</sys_id>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>12d6fef847e3f110eeeefb42e36d435f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-12-29 06:32:23</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>network_id</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-12-29 06:32:23</sys_created_on>
-            <sys_id>6b99951347573910eeeefb42e36d43d5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-12-29 06:32:23</sys_updated_on>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>router_name</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-12-29 06:32:23</sys_created_on>
-            <sys_id>6f99951347573910eeeefb42e36d43d5</sys_id>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>16d6fef847e3f110eeeefb42e36d435f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-12-29 06:32:23</sys_updated_on>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>3</position>
+            <element>client</element>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-12-29 06:32:23</sys_created_on>
-            <sys_id>6399951347573910eeeefb42e36d43d6</sys_id>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>1ad6fef847e3f110eeeefb42e36d435f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-12-29 06:32:23</sys_updated_on>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
             <sys_user/>
-            <type>.split</type>
+            <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>location_area</element>
-            <position>4</position>
+            <element>purches_date</element>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-12-29 06:32:23</sys_created_on>
-            <sys_id>6799951347573910eeeefb42e36d43d6</sys_id>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>1ed6fef847e3f110eeeefb42e36d435f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-12-29 06:32:23</sys_updated_on>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>security_protocol</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>12d6fef847e3f110eeeefb42e36d4360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mb_plan</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-12-29 06:32:23</sys_created_on>
-            <sys_id>6b99951347573910eeeefb42e36d43d6</sys_id>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>16d6fef847e3f110eeeefb42e36d4360</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-12-29 06:32:23</sys_updated_on>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
+            <element>free_service</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-12-29 06:32:23</sys_created_on>
-            <sys_id>6f99951347573910eeeefb42e36d43d6</sys_id>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>1ad6fef847e3f110eeeefb42e36d4360</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-12-29 06:32:23</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>passphrase</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-12-29 06:32:23</sys_created_on>
-            <sys_id>6399951347573910eeeefb42e36d43d7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-12-29 06:32:23</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-12-29 06:32:23</sys_created_on>
-            <sys_id>6799951347573910eeeefb42e36d43d7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-12-29 06:32:23</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>client</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-12-29 06:32:23</sys_created_on>
-            <sys_id>6b99951347573910eeeefb42e36d43d7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-12-29 06:32:23</sys_updated_on>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>10</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-12-29 06:32:23</sys_created_on>
-            <sys_id>6f99951347573910eeeefb42e36d43d7</sys_id>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>1ed6fef847e3f110eeeefb42e36d4360</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-12-29 06:32:23</sys_updated_on>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>mb_plan</element>
-            <position>11</position>
+            <element>phone_no</element>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-12-29 06:32:23</sys_created_on>
-            <sys_id>6399951347573910eeeefb42e36d43d8</sys_id>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>12d6fef847e3f110eeeefb42e36d4361</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-12-29 06:32:23</sys_updated_on>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location_area</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>16d6fef847e3f110eeeefb42e36d4361</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>1ad6fef847e3f110eeeefb42e36d4361</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>1ed6fef847e3f110eeeefb42e36d4361</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>12d6fef847e3f110eeeefb42e36d4362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pincode</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>16d6fef847e3f110eeeefb42e36d4362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>12</position>
+            <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-12-29 06:32:23</sys_created_on>
-            <sys_id>6799951347573910eeeefb42e36d43d8</sys_id>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>1ad6fef847e3f110eeeefb42e36d4362</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-12-29 06:32:23</sys_updated_on>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>1ed6fef847e3f110eeeefb42e36d4362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>12d6fef847e3f110eeeefb42e36d4363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>16d6fef847e3f110eeeefb42e36d4363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>1ad6fef847e3f110eeeefb42e36d4363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 05:10:36</sys_created_on>
+            <sys_id>1ed6fef847e3f110eeeefb42e36d4363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-03 05:10:36</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone_number</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 05:16:33</sys_created_on>
+            <sys_id>9538367c47e3f110eeeefb42e36d43d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1129732_wifi_man_wifi_information" sys_domain="global" view="Default view">6f99951347573910eeeefb42e36d43d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-03 05:16:33</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

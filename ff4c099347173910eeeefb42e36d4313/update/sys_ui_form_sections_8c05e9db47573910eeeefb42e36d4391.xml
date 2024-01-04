@@ -34,27 +34,27 @@
             <sys_created_on>2023-12-29 07:22:07</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0c05e9db47573910eeeefb42e36d43a8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1129732_wifi_man_issues" name="x_1129732_wifi_man_issues" sys_domain="global" view="Default view">8c05e9db47573910eeeefb42e36d4391</sys_ui_form>
-            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1129732_wifi_man_issues" sys_domain="global" view="Default view">8005e9db47573910eeeefb42e36d43a4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-12-29 07:22:07</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-12-29 07:22:07</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>8005e9db47573910eeeefb42e36d43ba</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1129732_wifi_man_issues" name="x_1129732_wifi_man_issues" sys_domain="global" view="Default view">8c05e9db47573910eeeefb42e36d4391</sys_ui_form>
             <sys_ui_section caption="Resolution Information" display_value="Resolution Information" name="x_1129732_wifi_man_issues" sys_domain="global" view="Default view">8005e9db47573910eeeefb42e36d43a9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-12-29 07:22:07</sys_updated_on>
+            <sys_updated_on>2024-01-03 07:56:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 19:33:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c8c84a347137910eeeefb42e36d4350</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1129732_wifi_man_issues" name="x_1129732_wifi_man_issues" sys_domain="global" view="Default view">8c05e9db47573910eeeefb42e36d4391</sys_ui_form>
+            <sys_ui_section caption="customer and wifi Information" display_value="customer and wifi Information" name="x_1129732_wifi_man_issues" sys_domain="global" view="Default view">737c44a347137910eeeefb42e36d43e9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-03 07:56:48</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1129732_wifi_man_issues</name>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>true</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1129732_wifi_man_wifi_incident</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>hello</p>]]></message>
+        <name>DemoBusiness Rule</name>
+        <order>16</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var gr = new GlideRecord('x_1129732_wifi_man_wifi_information');
+    gr.addQuery('client', current.caller);
+    gr.query();
+
+
+    while (gr.next()) {
+		var f= gr.client.user_name;
+
+        current.u_string_1 = gr.client.user_name;
+        current.u_string_5 = gr.purches_date;
+        current.u_string_2 = gr.router_name;
+        current.u_string_3 = gr.network_id;
+        current.u_string_4 = gr.location_area;
+		current.u_string_6=gr.free_service;
+		current.phone_number=gr.phone_no; 
+       
+        current.city=gr.city;
+        current.customer_state=gr.state   ;
+		current.country= gr.country;
+		current.pincode= gr.pincode;
+		
+		var choices = GlideChoiceList.getChoiceList("x_1129732_wifi_man_wifi_information", "security_protocol");
+
+for (var i = 0; i < choices.getSize(); i++){
+		var choiceValue = choices.getChoice(i).getValue();
+		var choiceLabel = choices.getChoice(i).getLabel();
+	if(choiceValue==gr.security_protocol)
+		 current.security_protocol=choiceLabel;
+	
+}
+		
+
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-30 12:02:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b89e6b674713b910eeeefb42e36d43b9</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>DemoBusiness Rule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope>
+        <sys_update_name>sys_script_b89e6b674713b910eeeefb42e36d43b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 17:37:22</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=b89e6b674713b910eeeefb42e36d43b9"/>
+</record_update>

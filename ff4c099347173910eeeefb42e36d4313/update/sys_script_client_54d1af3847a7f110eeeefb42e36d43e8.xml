@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>incident_state</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>On resolve</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+	alert("new" +newValue +"  old"+oldValue);
+
+    if (newValue == 4 || newValue==6) {
+        g_form.setMandatory('close_notes', true);
+        g_form.setMandatory('resolved_by', true);
+
+        var currentDate = new Date();
+
+        var year = currentDate.getFullYear();
+        var month = String(currentDate.getMonth() + 1).padStart(2, '0'); // Months are zero-indexed, so add 1
+        var day = String(currentDate.getDate()).padStart(2, '0');
+        var hours = String(currentDate.getHours()).padStart(2, '0');
+        var minutes = String(currentDate.getMinutes()).padStart(2, '0');
+        var seconds = String(currentDate.getSeconds()).padStart(2, '0');
+
+        var formattedDateTime = year + "-" + month + "-" + day + " " + hours + ":" + minutes + ":" + seconds;
+		g_form.setValue('resolved_at',formattedDateTime);
+
+
+    }else{
+		 g_form.setMandatory('close_notes', false);
+        g_form.setMandatory('resolved_by', false);
+	}
+	
+	  if (g_form.getValue('state') != 3) {
+        g_form.setDisplay('hold_reason', false);
+    } else {
+        g_form.setDisplay('hold_reason', true);
+        g_form.setMandatory('hold_reason', true);
+
+    }
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-03 08:26:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>54d1af3847a7f110eeeefb42e36d43e8</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>On resolve</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="wifi management system" source="x_1129732_wifi_man">ff4c099347173910eeeefb42e36d4313</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="wifi management system">ff4c099347173910eeeefb42e36d4313</sys_scope>
+        <sys_update_name>sys_script_client_54d1af3847a7f110eeeefb42e36d43e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 11:49:59</sys_updated_on>
+        <table>x_1129732_wifi_man_wifi_incident</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
